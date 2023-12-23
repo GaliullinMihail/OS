@@ -24,9 +24,6 @@ void PrintDirectory(char* directory_path)
 
 int main(int argc, char *argv[])
 {
-    DIR *dir;
-    struct dirent *entry;
-
     if (argc != 2)
     {
         printf("Invalid argc\n");
